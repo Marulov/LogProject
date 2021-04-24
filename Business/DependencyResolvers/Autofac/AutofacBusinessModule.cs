@@ -20,11 +20,6 @@ namespace Business.DependencyResolvers.Autofac
 
             builder.RegisterType<LogManager>().As<ILogService>();
 
-
-            var assembly = System.Reflection.Assembly.GetExecutingAssembly();
-
-
-
         }
     }
 }
